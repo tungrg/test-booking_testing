@@ -1,6 +1,5 @@
 package testing.Booking;
 import org.testng.Assert;
-import org.testng.asserts.Assertion;
 import org.testng.annotations.Test;
 
 import source.BookingPages.bookingHomeSearchPage;
