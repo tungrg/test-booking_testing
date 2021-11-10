@@ -12,7 +12,7 @@ public class Booking4Test extends BookingBaseTest {
                 .chooseLanguage()
                 .setTextToSearchField("Paris")
                 .chooseCheckInDay("February","13","15")
-                .chooseAdultGuess(3)
+                .chooseAdultGuess(2)
                 .clickBookingSearchButton()
                 .getParisElement(), "Paris");
     }
